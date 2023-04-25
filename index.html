@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        let intro=<div>
+            <h1>Ggou Edukondal Yadav</h1>
+            <p>Student at Geekster</p>
+            <a href='#'>Linkedin</a>
+            <a href='#'>Github</a>
+            <hr/>
+            </div>
+        let experience=<div>
+                    <h2>Experience</h2>
+                    <h4>Student at Geekster</h4>
+                    <p>I am pursuing fullstock development coarse at GEEKSTER, some more description Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ullam! Maxime officiis consequuntur libero eaque reprehenderit quisquam nam ab vitae totam id commodi laborum enim, sint ea odit quasi soluta!
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident iusto ut praesentium modi. Incidunt atque voluptatem, dignissimos officiis reprehenderit est!
+
+</p>
+<hr/>
+</div>
+        let skills=<div>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>ReactJS</li>
+                <li>Java DSA</li>
+            </ul>
+            <hr/>
+            </div>
+            let hobbies=<div>
+                <h2>Hobbies</h2>
+                <ol>
+                    <li>Cricket</li>
+                    <li>Listening Music</li>
+                    <li>Watching Movies</li>
+                    <li>Reading Books</li>
+                    </ol>
+                    <hr/>
+                </div>
+            ReactDOM.render(<div>{intro} {experience} {skills} {hobbies}</div>,document.getElementById('root'))
+    </script>
+</body>
+</html>
